@@ -8,12 +8,12 @@ import { Component } from '@angular/core';
   styleUrl: './showusername.component.css'
 })
 export class ShowusernameComponent {
-  username: string = '';
+  showusername: string = '';
   displayedUsername: string = '';
   // @ts-ignore
   displayedUsername: string;
 
   displayUsername() {
-    this.displayedUsername = this.username;
+    this.displayedUsername = this.showusername;
 }
 }
