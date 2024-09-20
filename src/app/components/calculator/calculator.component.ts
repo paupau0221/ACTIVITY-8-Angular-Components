@@ -9,22 +9,22 @@ export class CalculatorComponent {
   num1: number = 0;
   num2: number = 0;
   // @ts-ignore
-  result: number = null;
+  calculator: number = null;
   // @ts-ignore
-  result: number;
+  calculator: number;
   // @ts-ignore
-  result: number | undefined;
+  calculator: number | undefined;
 
   add() {
-    this.result = this.num1 + this.num2;
+    this.calculator = this.num1 + this.num2;
   }
 
   subtract() {
-    this.result = this.num1 - this.num2;
+    this.calculator = this.num1 - this.num2;
   }
 
   multiply() {
-    this.result = this.num1 * this.num2;
+    this.calculator = this.num1 * this.num2;
   }
 
   divide() {
