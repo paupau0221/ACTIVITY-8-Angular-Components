@@ -8,9 +8,9 @@ import {FormsModule} from "@angular/forms";
 })
 export class UsegreetingComponent {
   userName: string = '';
-  greeting: string = '';
+  usergreeting: string = '';
 
   greetUser() {
-    this.greeting = this.userName;
+    this.usergreeting = this.userName;
   }
 }
