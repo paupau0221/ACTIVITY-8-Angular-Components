@@ -13,7 +13,7 @@ export class EvenoddcheckerComponent {
   result: string;
 
   checkEvenOdd() {
-    if (this.evenoddchecker % 2 === 0) {
+    if (this.evenoddchecke % 2 === 0) {
       this.result = 'Even';
     } else {
       this.result = 'Odd';
