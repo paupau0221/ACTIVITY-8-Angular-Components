@@ -6,9 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './showhellobutton.component.css'
 })
 export class ShowhellobuttonComponent {
-  displayMessage: string = '';
+  showhellobutton: string = '';
 
   displayHello() {
-    this.displayMessage = 'Hello World';
+    this.showhellobutton = 'Hello World';
   }
 }
