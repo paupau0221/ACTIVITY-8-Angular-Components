@@ -8,13 +8,13 @@ import { Component } from '@angular/core';
 export class FahrenheittocelsiusComponent {
   fahrenheit: number = 0;
   // @ts-ignore
-  celsiusValue: number = null;
+  fahrenheittocelsius: number = null;
   // @ts-ignore
-  celsiusValue: number;
+  fahrenheittocelsius: number;
   // @ts-ignore
-  celsiusValue: number;
+  fahrenheittocelsius: number;
 
   convertToCelsius() {
-    this.celsiusValue = ((this.fahrenheit - 32) * 5) / 9;
+    this.fahrenheittocelsius = ((this.fahrenheit - 32) * 5) / 9;
   }
 }
