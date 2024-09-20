@@ -9,10 +9,10 @@ import { Component } from '@angular/core';
 export class SimpleformComponent {
   name: string = '';
   email: string = '';
-  simpleform: any = null;
+  simplelogin: any = null;
 
   onSubmit() {
-    this.simpleform = {
+    this.simplelogin = {
       name: this.name,
       email: this.email
     };
