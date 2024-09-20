@@ -7,12 +7,12 @@ import { Component } from '@angular/core';
 })
 export class MultiplicationtableComponent {
   number: number = 0;
-  table: number[] = [];
+  multiplicationtable: number[] = [];
 
   generateTable() {
-    this.table = [];
+    this.multiplicationtable = [];
     for (let i = 1; i <= 10; i++) {
-      this.table.push(i);
+      this.multiplicationtable.push(i);
     }
   }
 }
