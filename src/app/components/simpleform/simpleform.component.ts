@@ -12,7 +12,7 @@ export class SimpleformComponent {
   simpleform: any = null;
 
   onSubmit() {
-    this.simpleformc = {
+    this.simpleform = {
       name: this.name,
       email: this.email
     };

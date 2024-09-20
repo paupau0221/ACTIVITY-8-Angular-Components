@@ -9,10 +9,10 @@ import { Component } from '@angular/core';
 export class UserageComponent {
   birthYear: number = 0;
   // @ts-ignore
-  age: number = null;
+  userage: number = null;
 
   calculateAge() {
     const currentYear = new Date().getFullYear();
-    this.age = currentYear - this.birthYear;
+    this.userage = currentYear - this.birthYear;
   }
 }
