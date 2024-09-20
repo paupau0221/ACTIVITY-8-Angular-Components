@@ -7,10 +7,10 @@ import { Component } from '@angular/core';
 })
 export class TextlengthComponent {
   inputString: string = '';
-  stringLength: null = null;
+  textlength: null = null;
 
   calculateLength() {
     // @ts-ignore
-    this.stringLength = this.inputString.length;
+    this.textlength = this.inputString.length;
   }
 }
