@@ -8,11 +8,11 @@ import { Component } from '@angular/core';
 export class CurrencyconverterComponent {
   inputValue: number = 0;
   // @ts-ignore
-  convertedValue: number = null;
+  currencyconverter: number = null;
   // @ts-ignore
-  convertedValue: number;
+  currencyconverter: number;
 
   convertCurrency() {
-    this.convertedValue = this.inputValue * 56; // 1 dollar = 56 Php
+    this.currencyconverter = this.inputValue * 56; // 1 dollar = 56 Php
   }
 }
