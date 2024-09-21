@@ -6,11 +6,11 @@ import { Component } from '@angular/core';
   styleUrl: './progressbar.component.css'
 })
 export class ProgressbarComponent {
-  progress = 0;
+  progressbar = 0;
 
   increaseProgress() {
-    if (this.progress < 100) {
-      this.progress += 10;
+    if (this.progressbar < 100) {
+      this.progressbar += 10;
     }
   }
 }
