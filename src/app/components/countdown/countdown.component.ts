@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './countdown.component.css'
 })
 export class CountdownComponent {
-  timeLeft = 10;
+  timeLet = 10;
   interva: any;
 
   startCountdown() {
@@ -14,8 +14,8 @@ export class CountdownComponent {
       clearInterval(this.interva);
     }
     this.interva = setInterval(() => {
-      if (this.timeLeft > 0) {
-        this.timeLeft--;
+      if (this.timeLet > 0) {
+        this.timeLet--;
       } else {
         clearInterval(this.interva);
       }
