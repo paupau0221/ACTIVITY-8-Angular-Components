@@ -7,16 +7,16 @@ import { Component } from '@angular/core';
 })
 export class TodomanagerComponent {
   newTask: string = '';
-  tasks: string[] = [];
+  todomanager: string[] = [];
 
   addTask() {
     if (this.newTask) {
-      this.tasks.push(this.newTask);
+      this.todomanager.push(this.newTask);
       this.newTask = ''; // Clear input field
     }
   }
 
   removeTask(index: number) {
-    this.tasks.splice(index, 1);
+    this.todomanager.splice(index, 1);
   }
 }
