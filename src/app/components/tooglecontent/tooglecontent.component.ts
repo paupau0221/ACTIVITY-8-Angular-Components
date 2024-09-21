@@ -6,9 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './tooglecontent.component.css'
 })
 export class TooglecontentComponent {
-  showContent = false;
+  showContents = false;
 
   toggleContent() {
-    this.showContent = !this.showContent;
+    this.showContents = !this.showContents;
   }
 }
