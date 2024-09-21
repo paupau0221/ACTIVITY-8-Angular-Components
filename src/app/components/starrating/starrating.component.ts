@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class StarratingComponent {
   rating = 0;
-  stars = [1, 2, 3, 4, 5];
+  starss = [1, 2, 3, 4, 5];
 
   setRating(star: number) {
     this.rating = star;
