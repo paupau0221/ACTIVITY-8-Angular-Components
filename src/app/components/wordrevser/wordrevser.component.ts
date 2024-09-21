@@ -7,12 +7,12 @@ import { Component } from '@angular/core';
 })
 export class WordrevserComponent {
   inputWord: string = '';
-  wordreverser
+  wordshuffler
 
     : string = '';
 
   reverseWord() {
-    this.wordreverser
+    this.wordshuffler
 
       = this.inputWord.split('').reverse().join('');
   }
