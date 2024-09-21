@@ -7,17 +7,17 @@ import { Component } from '@angular/core';
 })
 export class CountdownComponent {
   timeLeft = 10;
-  interval: any;
+  interva: any;
 
   startCountdown() {
-    if (this.interval) {
-      clearInterval(this.interval);
+    if (this.interva) {
+      clearInterval(this.interva);
     }
-    this.interval = setInterval(() => {
+    this.interva = setInterval(() => {
       if (this.timeLeft > 0) {
         this.timeLeft--;
       } else {
-        clearInterval(this.interval);
+        clearInterval(this.interva);
       }
     }, 1000);
   }
